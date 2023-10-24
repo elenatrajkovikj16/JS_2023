@@ -1,0 +1,45 @@
+.cyan {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.cyan div {
+    width: 33%;
+    height: 150px;
+    background-color: darkcyan;
+}
+
+.pink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumvioletred;
+    width: 50%;
+    height: 500px;
+}
+
+.pink .yellow {
+    background-color: darkkhaki;
+    width: 100px;
+    height: 100px;
+}
+
+.mint {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.mint div {
+    background-color: aquamarine;
+    height: 33%;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}

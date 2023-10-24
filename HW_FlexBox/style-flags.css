@@ -1,0 +1,18 @@
+body {
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 70px;
+}
+
+img {
+    width: 150px;
+}
